@@ -1,5 +1,5 @@
-let print_byte x = Pervasives.print_char (char_of_int x)
-let prerr_byte x = Pervasives.prerr_char (char_of_int x)
+let print_byte x = Stdlib.print_char (char_of_int x)
+let prerr_byte x = Stdlib.prerr_char (char_of_int x)
 
 let buf = Buffer.create 16
 
